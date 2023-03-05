@@ -1,0 +1,7 @@
+version: '3'
+services:
+  gremlin-server:
+    container_name: gremlin-server-neptune
+    build: .
+    ports:
+      - "8182:8182"
